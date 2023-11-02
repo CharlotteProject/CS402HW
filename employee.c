@@ -136,7 +136,7 @@ void CreateDB(char* datafile)
 
         if (feof(file)) // hit end of file
         {
-            close_file(file);
+            close_file();
         } 
     }
 }
